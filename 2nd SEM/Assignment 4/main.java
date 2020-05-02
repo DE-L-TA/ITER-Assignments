@@ -1,33 +1,42 @@
+
+
 import java.util.Scanner;
 public class main{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Limkedlist list = new Limkedlist();
         Node root = null;
-        root=list.insert(1941012657,100,root);
-        root=list.insert(1941012667,95,root);
-        root=list.insert(1941012630,56,root);
-        root=list.insert(1941012415,45,root);
-        root=list.insert(1941012852,86,root);
-        root=list.insert(1941012417,75,root);
-        root=list.insert(1941011258,66,root);
-        root=list.insert(1941011263,15,root);
+        
+
         while (true) {
             System.out.println("******Menu********");
             System.out.println("0 to exit");
-            System.out.println("1 to insert");
-            System.out.println("2 to delete");
-            System.out.println("3 to search and update marks");
-            System.out.println("4 to sort");
-            System.out.println("5 to count");
-            System.out.println("6 to reverse");
-            System.out.println("7 to display");
+            System.out.println("1 to create");
+            System.out.println("2 to insert");
+            System.out.println("3 to delete");
+            System.out.println("4 to search and update marks");
+            System.out.println("5 to sort");
+            System.out.println("6 to count");
+            System.out.println("7 to reverse");
+            System.out.println("8 to display");
             int c = sc.nextInt();
             switch (c) {
                 case 0:
                     System.out.print("Exiting");
                     System.exit(0);
                 case 1:
+                    System.out.println("Create the list");
+                    System.out.println("Enter the number of Entries do you want");
+                    int rect=sc.nextInt();
+                    for(int i=1;i<=rect;i++){
+                        System.out.println("Insert the registration number ");
+                        int reg=sc.nextInt();
+                        System.out.println("Enter the marks");
+                        float mark=sc.nextFloat();
+                        root=list.insert(reg,mark,root);
+                    }
+                    break;
+                case 2:
                     System.out.println("Insert the registration number ");
                     int reg=sc.nextInt();
                     System.out.println("Enter the marks");
@@ -53,7 +62,7 @@ public class main{
                             System.out.println("invalid choice");
                     }
                     break;
-                case 2:
+                case 3:
                     System.out.println("******Menu********");
                     System.out.println("0 to delete at begining");
                     System.out.println("1 to delete at end");
@@ -74,22 +83,22 @@ public class main{
                         default:
                             System.out.println("wrong choice");
                     }break;
-                case 3:
+                case 4:
                     System.out.println("Enter the registration number which marks should be updated");
                     int r=sc.nextInt();
                     System.out.println("Enter the updated marks");
                     float m=sc.nextFloat();
                     root=list.search(r,m,root);
                     break;
-                case 4:
+                case 5:
                     root=list.mergeSort(root);
                     break;
-                case 5:
+                case 6:
                     System.out.println(list.count(root));
                     break;
-                case 6:
-                    root=list.reverse(root);
                 case 7:
+                    root=list.reverse(root);
+                case 8:
                     list.printList(root);
                     break;
             }

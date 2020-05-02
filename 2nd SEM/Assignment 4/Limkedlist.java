@@ -1,7 +1,8 @@
+
 public class Limkedlist{
 Node head;
 
-    public Node getNewNode(int regd_no,float mark) {
+    public static Node getNewNode(int regd_no,float mark) {
         Node a = new Node();
         a.next = null;
         a.regd_no = regd_no;
@@ -10,7 +11,7 @@ Node head;
     }
 
 
-    public Node insert(int regd_no,float marks, Node node) {
+    public static Node insert(int regd_no,float marks, Node node) {
 
         if (node == null)
             return getNewNode(regd_no,marks);
@@ -19,13 +20,13 @@ Node head;
 
         return node;
     }
-    public Node insbeg(int regd_no,float marks,Node node) {
+    public static Node insbeg(int regd_no,float marks,Node node) {
        Node head1;
        head1=getNewNode(regd_no,marks);
        head1.next=node;
        return head1;
     }
-    public Node insend(int regd_no,float marks,Node node){
+    public static Node insend(int regd_no,float marks,Node node){
 Node n=node;
      while(n.next!=null){
          n=n.next;
@@ -33,7 +34,7 @@ Node n=node;
         n.next=getNewNode(regd_no,marks);
         return node;
     }
-public Node insany(int index,int regd_no,float mark,Node node) {
+public static Node insany(int index,int regd_no,float mark,Node node) {
     Node n = node;
     Node n1;
     int i=0;
@@ -50,11 +51,11 @@ public Node insany(int index,int regd_no,float mark,Node node) {
 
     return node;
 }
-    public Node deleteatstart(Node node){
+    public static Node deleteatstart(Node node){
         node=node.next;
         return node;
     }
-    public Node deleteatend(Node node){
+    public static Node deleteatend(Node node){
         Node n=node;
         while((n.next).next!=null){
             n=n.next;
@@ -62,7 +63,7 @@ public Node insany(int index,int regd_no,float mark,Node node) {
         n.next=null;
         return node;
     }
-    public Node delleteany(int regd_no,Node node){
+    public static Node delleteany(int regd_no,Node node){
 
         int a=0,b=0,c=0;
 
@@ -91,7 +92,7 @@ public Node insany(int index,int regd_no,float mark,Node node) {
         n.next=(n.next).next;
         return node;
     }
-    public Node search(int regd_no,float marks,Node node){
+    public static Node search(int regd_no,float marks,Node node){
         Node n= node;
         int t=0;
         while (n.next!=null){
@@ -111,7 +112,7 @@ public Node insany(int index,int regd_no,float mark,Node node) {
         return node;
 
     }
-    public Node mergeSort(Node node) {
+    public static Node mergeSort(Node node) {
         if(node == null || node.next == null) {
             return node;
         }
@@ -124,7 +125,7 @@ public Node insany(int index,int regd_no,float mark,Node node) {
     }
 
 
-    public Node findmiddleNode(Node node) {
+    public static Node findmiddleNode(Node node) {
         if(node == null) {
             return null;
         }
@@ -140,7 +141,7 @@ public Node insany(int index,int regd_no,float mark,Node node) {
         return a;
     }
 
-    public Node merge(Node a, Node b) {
+    public static Node merge(Node a, Node b) {
         Node temp = new Node();
         Node finalList = temp;
 
@@ -157,7 +158,7 @@ public Node insany(int index,int regd_no,float mark,Node node) {
         temp.next = (a == null) ? b : a;
         return finalList.next;
     }
-    public int count(Node node){
+    public static int count(Node node){
         Node n=node;
         int c=1;
         while(n.next!=null){
@@ -167,11 +168,11 @@ public Node insany(int index,int regd_no,float mark,Node node) {
         }
         return c;
     }
-public void prontcount(int c){
+public static void prontcount(int c){
     System.out.println(c);
 
 }
-public Node reverse(Node node){
+public static Node reverse(Node node){
         Node n;
         Node finallist=null;
         Node temp=node;
