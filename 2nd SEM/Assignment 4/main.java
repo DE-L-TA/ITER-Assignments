@@ -25,8 +25,8 @@ public class main{
                     System.out.print("Exiting");
                     System.exit(0);
                 case 1:
-                    System.out.println("Create the list");
-                    System.out.println("Enter the number of Entries do you want");
+                    System.out.println("*********Create the list**********");
+                    System.out.println("Enter the number of Entries do you want in the list");
                     int rect=sc.nextInt();
                     for(int i=1;i<=rect;i++){
                         System.out.println("Insert the registration number ");
