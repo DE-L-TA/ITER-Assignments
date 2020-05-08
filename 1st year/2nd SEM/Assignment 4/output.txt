@@ -1,0 +1,171 @@
+******Menu********
+0 to exit
+1 to create
+2 to insert
+3 to delete
+4 to search and update marks
+5 to sort
+6 to count
+7 to reverse
+8 to display
+1
+-----------Create the lis-----------
+Enter the number of Entries do you want
+3
+Insert the registration number 
+1941017061
+Enter the marks
+98
+Insert the registration number 
+1941012657
+Enter the marks
+78
+Insert the registration number 
+1941018789
+Enter the marks
+45
+******Menu********
+0 to exit
+1 to create
+2 to insert
+3 to delete
+4 to search and update marks
+5 to sort
+6 to count
+7 to reverse
+8 to display
+2
+Insert the registration number 
+1941013654
+Enter the marks
+36
+******Menu********
+0 to insert at begining
+1 to insert at end
+2 to inert at position
+0
+******Menu********
+0 to exit
+1 to create
+2 to insert
+3 to delete
+4 to search and update marks
+5 to sort
+6 to count
+7 to reverse
+8 to display
+8
+1941013654 36.0
+1941017061 98.0
+1941012657 78.0
+1941018789 45.0
+******Menu********
+0 to exit
+1 to create
+2 to insert
+3 to delete
+4 to search and update marks
+5 to sort
+6 to count
+7 to reverse
+8 to display
+4
+Enter the registration number which marks should be updated
+1941017061
+Enter the updated marks
+100
+******Menu********
+0 to exit
+1 to create
+2 to insert
+3 to delete
+4 to search and update marks
+5 to sort
+6 to count
+7 to reverse
+8 to display
+8
+1941013654 36.0
+1941017061 100.0
+1941012657 78.0
+1941018789 45.0
+******Menu********
+0 to exit
+1 to create
+2 to insert
+3 to delete
+4 to search and update marks
+5 to sort
+6 to count
+7 to reverse
+8 to display
+5
+******Menu********
+0 to exit
+1 to create
+2 to insert
+3 to delete
+4 to search and update marks
+5 to sort
+6 to count
+7 to reverse
+8 to display
+8
+1941013654 36.0
+1941018789 45.0
+1941012657 78.0
+1941017061 100.0
+******Menu********
+0 to exit
+1 to create
+2 to insert
+3 to delete
+4 to search and update marks
+5 to sort
+6 to count
+7 to reverse
+8 to display
+6
+4
+******Menu********
+0 to exit
+1 to create
+2 to insert
+3 to delete
+4 to search and update marks
+5 to sort
+6 to count
+7 to reverse
+8 to display
+7
+1941017061 100.0
+1941012657 78.0
+1941018789 45.0
+1941013654 36.0
+******Menu********
+0 to exit
+1 to create
+2 to insert
+3 to delete
+4 to search and update marks
+5 to sort
+6 to count
+7 to reverse
+8 to display
+8
+1941017061 100.0
+1941012657 78.0
+1941018789 45.0
+1941013654 36.0
+******Menu********
+0 to exit
+1 to create
+2 to insert
+3 to delete
+4 to search and update marks
+5 to sort
+6 to count
+7 to reverse
+8 to display
+0
+Exiting

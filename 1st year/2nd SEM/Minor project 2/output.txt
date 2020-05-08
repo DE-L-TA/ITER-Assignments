@@ -1,0 +1,46 @@
+***********First Enter The Two Polynomials**********
+Enter the 1st polynomial
+Enter the coffecient of x
+3
+enter the exponent of x 
+2
+Do you want to enter more term in 1st polynomial 
+so press y to enter and press any key to continue
+y
+Enter the coffecient of x
+-4
+enter the exponent of x 
+1
+Do you want to enter more term in 1st polynomial 
+so press y to enter and press any key to continue
+y
+Enter the coffecient of x
+7
+enter the exponent of x 
+0
+Do you want to enter more term in 1st polynomial 
+so press y to enter and press any key to continue
+r
+Enter the 2nd Polynomial
+Enter the coffecient of x
+9
+enter the exponent of x 
+1
+Do you want to enter more term in 2nd polynomial 
+so press y to enter and press any key to continue
+y
+Enter the coffecient of x
+2
+enter the exponent of x 
+0
+Do you want to enter more term in 2nd polynomial 
+so press y to enter and press any key to continue
+r
+1st polynomial :3x^2 -4x^1 +7 
+
+2nd polynomial :9x^1 +2 
+
+Resultant polynomial :3x^2 + 5x^1 +9 
+
+
+Process finished with exit code 0
