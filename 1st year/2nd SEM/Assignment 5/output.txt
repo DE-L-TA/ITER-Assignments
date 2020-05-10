@@ -1,0 +1,149 @@
+------------Menu------------
+1: Create
+2: Insert
+3: Delete
+4: Search and update mark
+5: Display
+0: Exit
+Enter your choice
+1
+Enter the registration number
+1941012657
+Enter the marks
+100
+Do you want to do entries if yes enter Y/y or else enter any key to return to menu
+y
+Enter the registration number
+1941012439
+Enter the marks
+65
+Do you want to do entries if yes enter Y/y or else enter any key to return to menu
+y
+Enter the registration number
+1941012654
+Enter the marks
+89
+Do you want to do entries if yes enter Y/y or else enter any key to return to menu
+k
+------------Menu------------
+1: Create
+2: Insert
+3: Delete
+4: Search and update mark
+5: Display
+0: Exit
+Enter your choice
+5
+| Reg number :1941012657 Marks :100.0
+| Reg number :1941012439 Marks :65.0
+| Reg number :1941012654 Marks :89.0
+------------Menu------------
+1: Create
+2: Insert
+3: Delete
+4: Search and update mark
+5: Display
+0: Exit
+Enter your choice
+2
+-----Insert--Menu---------
+1: insert at begining
+2: insert at any position
+3: inser at end
+Enter the choice
+2
+Enter the registration number
+1941012454
+Enter the marks
+97
+Enter the index number
+2
+------------Menu------------
+1: Create
+2: Insert
+3: Delete
+4: Search and update mark
+5: Display
+0: Exit
+Enter your choice
+5
+| Reg number :1941012657 Marks :100.0
+| Reg number :1941012454 Marks :97.0
+| Reg number :1941012439 Marks :65.0
+| Reg number :1941012654 Marks :89.0
+------------Menu------------
+1: Create
+2: Insert
+3: Delete
+4: Search and update mark
+5: Display
+0: Exit
+Enter your choice
+3
+-----Delete--Menu------
+1: Delete at begining
+2: Delete at any position
+3: Delete at end
+Enter the choice
+2
+Enter the index number
+2
+------------Menu------------
+1: Create
+2: Insert
+3: Delete
+4: Search and update mark
+5: Display
+0: Exit
+Enter your choice
+5
+| Reg number :1941012657 Marks :100.0
+| Reg number :1941012439 Marks :65.0
+| Reg number :1941012654 Marks :89.0
+------------Menu------------
+1: Create
+2: Insert
+3: Delete
+4: Search and update mark
+5: Display
+0: Exit
+Enter your choice
+4
+So you want to update the marks.... 
+Enter the registration number
+1941012439
+Enter the marks
+95
+1941012439 updated now it has95.0
+------------Menu------------
+1: Create
+2: Insert
+3: Delete
+4: Search and update mark
+5: Display
+0: Exit
+Enter your choice
+5
+| Reg number :1941012657 Marks :100.0
+| Reg number :1941012439 Marks :95.0
+| Reg number :1941012654 Marks :89.0
+------------Menu------------
+1: Create
+2: Insert
+3: Delete
+4: Search and update mark
+5: Display
+0: Exit
+Enter your choice
+8
+Invalid input
+------------Menu------------
+1: Create
+2: Insert
+3: Delete
+4: Search and update mark
+5: Display
+0: Exit
+Enter your choice
+0
+Exting the program
