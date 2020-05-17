@@ -1,0 +1,125 @@
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+1
+Enter the number
+8
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+1
+Enter the number
+6
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+1
+Enter the number
+4
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+1
+Enter the number
+5
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+1
+Enter the number
+3
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+1
+Queue is full
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+3
+8 6 4 5 3 
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+2
+8 is removed from queue
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+2
+6 is removed from queue
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+2
+4 is removed from queue
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+2
+5 is removed from queue
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+2
+3 is removed from queue
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+2
+Queue is Empty
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+3
+All the elementes are deleted no left to display
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+0
+Exiting the program

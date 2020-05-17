@@ -1,0 +1,67 @@
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+1
+Enter the number
+6
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+1
+Enter the number
+9
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+3
+6 9 
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+2
+Integer :6 at postion :0  with ID :Node@31221be2  Deleted
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+2
+Integer :9 at postion :1  with ID :Node@377dca04  Deleted
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+1
+Enter the number
+5
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+3
+5 
+*********MENU***********
+1: Insert
+2: Delete
+3: Display
+0: exit
+Enter the choice 
+0
+Exiting the program
