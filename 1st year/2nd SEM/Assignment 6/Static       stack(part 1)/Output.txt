@@ -1,0 +1,83 @@
+*********MENU***********
+1: Push
+2: Pop
+3: Display
+0: exit
+Enter the choice 
+1
+Enyer the number 
+5
+*********MENU***********
+1: Push
+2: Pop
+3: Display
+0: exit
+Enter the choice 
+1
+Enyer the number 
+6
+*********MENU***********
+1: Push
+2: Pop
+3: Display
+0: exit
+Enter the choice 
+1
+Enyer the number 
+9
+*********MENU***********
+1: Push
+2: Pop
+3: Display
+0: exit
+Enter the choice 
+3
+5 6 9 
+*********MENU***********
+1: Push
+2: Pop
+3: Display
+0: exit
+Enter the choice 
+2
+9 is deleted
+*********MENU***********
+1: Push
+2: Pop
+3: Display
+0: exit
+Enter the choice 
+2
+6 is deleted
+*********MENU***********
+1: Push
+2: Pop
+3: Display
+0: exit
+Enter the choice 
+2
+5 is deleted
+*********MENU***********
+1: Push
+2: Pop
+3: Display
+0: exit
+Enter the choice 
+2
+stack is empty
+*********MENU***********
+1: Push
+2: Pop
+3: Display
+0: exit
+Enter the choice 
+3
+Stack is empty
+*********MENU***********
+1: Push
+2: Pop
+3: Display
+0: exit
+Enter the choice 
+0
+Exiting the program
